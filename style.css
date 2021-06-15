@@ -1,0 +1,306 @@
+
+.indexh1 {
+    color: black;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: grey;
+}
+
+/* Nav */
+.logoDodge {
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: black;
+}
+
+nav {
+    border: 1px solid;
+    margin-top: 0px;
+    height: 60px;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 10px;
+    float: right;
+    margin:0px;
+    justify-content: space-between;
+    padding-top: 5px;
+    background-color: black;
+}
+
+li {
+    margin: 15px;
+}
+
+a:hover {
+    border: 1px solid black;
+    opacity: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* Imagen */
+
+.imagenPrincipal {
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.textoFooter {
+    padding-top: 4px;
+}
+
+/* Historia */
+
+/* 1969 */
+.primerAño {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.primerAño p {
+    text-align: center;
+}
+
+.challenger1969 {
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+/* 1970 */
+
+#añoSetenta {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: 50px 150px;
+    grid-template-areas: "foto titulo"
+                        "foto descripcion";
+    column-gap: 5%;
+    row-gap: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#titulo {
+    grid-area: titulo;
+    justify-self: center;
+    align-self: center;
+}
+
+#descripcion {
+    grid-area: descripcion;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+#foto {
+    grid-area: foto;
+    justify-self: start;
+}
+
+.challenger1970 {
+    grid-area: foto;
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+/* Galeria */
+
+#galeria {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas: "foto1 foto1 foto2 foto3 foto4"
+                        "foto1 foto1 foto5 foto6 foto6"
+                        "foto7 foto8 foto9 foto6 foto6";
+                        
+    column-gap: 1%;
+    row-gap: 5%;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+#fotogaleria1 {
+    grid-area: foto1;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria2 {
+    grid-area: foto2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria2:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria3 {
+    grid-area: foto3;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria3:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria4 {
+    grid-area: foto4;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria4:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria5 {
+    grid-area: foto5;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria5:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria6 {
+    grid-area: foto6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria7 {
+    grid-area: foto7;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria7:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria8 {
+    grid-area: foto8;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria8:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#fotogaleria9 {
+    grid-area: foto9;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fotogaleria9:hover {
+    transform:scale(1.2,1.2);
+    transition-duration: 2s;
+}
+
+#footergaleria {
+    margin-top: 5%;
+}
+
+/* Versiones */
+
+
+#versiones {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(6, 250px);
+    grid-template-areas: "fotosxt infosxt"
+                        "fotogt infogt";
+    justify-content: center;
+}
+
+#fotoSxt {
+    grid-area: fotosxt;
+    width: 600px;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+}
+
+#infoSxt {
+    grid-area: infosxt;
+    justify-self: center;
+}
+
+#fotoGt {
+    grid-area: fotogt;
+    width: 600px;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+}
+
+#infoGt {
+    grid-area: infogt;
+    justify-self: center;
+}
